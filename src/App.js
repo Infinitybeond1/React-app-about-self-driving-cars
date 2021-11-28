@@ -29,6 +29,14 @@ export default function App() {
         massive increase of range from the radar (which only has the range of
         10m)
       </p1>
+      <h3>Sonar</h3>
+      <p1>
+          Sonar (which isn't use on tesla cars) uses sound waves, which are not audible to the human ear, to detect obstacles by calculating how long it takes for the sound to bounce off of an object. This only works at realatively close range which is why is ussually used for parking assistance.
+      </p1>
+      <h3>Lidar</h3>
+      <p1>
+        Lidar is another form of obstacle detection which uses invisble lasers attached to a spinning object, to get 360° coverage of the car with only one camera, this is a realatively new technology and its expensive. Lidar based detection is primarily used for robotic vacuums. 
+      </p1>
       <h3>Images</h3>
       <img src={logo} alt="Tesla" />
       <h3>Video</h3>
